@@ -11,7 +11,7 @@ def day2_1():
                 y += value
             elif ("up" == ss[0]):
                 y -= value
-        return (x, y, x*y)
+        return x, y, x*y
 
 def day2_2():
     with open("input/day2.txt") as fo:
@@ -28,4 +28,4 @@ def day2_2():
                 aim += value
             elif ("up" == ss[0]):
                 aim -= value
-        return (aim, depth, horizontal, depth * horizontal)
+        return aim, depth, horizontal, depth * horizontal
