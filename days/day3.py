@@ -1,3 +1,4 @@
+# could use matrix transpose and calculate line by line
 def find_most_least(numbers):
     base = []
     count = 0
