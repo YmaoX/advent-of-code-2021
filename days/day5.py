@@ -56,7 +56,7 @@ def count_board(board: list):
     return count
 
 
-def day4_1():
+def day5_1():
     lines = retrieve_lines()
     board = [[0] * 1000 for i in range(1000)]
     for line in lines:
@@ -64,7 +64,7 @@ def day4_1():
     return count_board(board)
 
 
-def day4_2():
+def day5_2():
     lines = retrieve_lines()
     board = [[0] * 1000 for i in range(1000)]
     for line in lines:

@@ -1,4 +1,4 @@
-from days.day5 import *
+from days.day6 import *
 
 if __name__ == "__main__":
-    print(day4_2())
+    print(part1())
