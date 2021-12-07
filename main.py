@@ -1,4 +1,6 @@
-from days.day6 import *
+import statistics
+
+from days.day7 import *
 
 if __name__ == "__main__":
-    print(part2())
+    print(part1())
