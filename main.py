@@ -1,7 +1,7 @@
 import statistics
 from functools import reduce
 
-from days.day8 import *
+from days.day9 import *
 
 if __name__ == "__main__":
-    part2()
+    print(part1())
