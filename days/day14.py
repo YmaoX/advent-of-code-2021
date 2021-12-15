@@ -1,4 +1,3 @@
-import collections
 import math
 from collections import Counter
 

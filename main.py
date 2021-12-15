@@ -1,8 +1,4 @@
-import re
-import statistics
-from functools import reduce
-
-from days.day14 import *
+from days.day15 import *
 
 if __name__ == "__main__":
-    part(40)
+    print(part2())
