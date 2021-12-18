@@ -15,8 +15,12 @@ def get_min(ns: dict):
 
 
 def process(m: list[list]):
+    """
+    dijkstra's algorithm:
+    important part: knowing why you should get the min from the set and then can mark it as visited
+    """
     l = len(m)
-    visited = init_array(l, 0)
+    visited = init_array(l, False)
     dis = init_array(l, 9999999)
     dis[0][0] = 0
     ns = {(0, 0): 0}

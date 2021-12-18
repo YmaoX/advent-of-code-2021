@@ -61,8 +61,8 @@ def part():
     vx_min = get_vx_min(x_min)
     lh = []
     ss = set()
-    # brute force, 200 is based on experiences
-    for vy in range(y_min, 200):
+    # brute force
+    for vy in range(-abs(y_min), abs(y_min)):
         h, s = process_y(vy, vx_min, x_max, x_min, x_max, y_min, y_max)
         if h != 0:
             lh.append(h)
