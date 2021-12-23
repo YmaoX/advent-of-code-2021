@@ -1,4 +1,4 @@
-from days.day21 import *
+from days.day22 import *
 
 
 if __name__ == "__main__":
