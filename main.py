@@ -1,5 +1,5 @@
-from days.day23 import *
+from days.day25 import *
 
 
 if __name__ == "__main__":
-    part2()
+    part1()
