@@ -16,6 +16,7 @@ def get_input():
     return ops
 
 
+# inspired by https://stackoverflow.com/a/66370641/2741395
 def parse_axis(l: list, limit):
     # need to merge points with same value
     ps = defaultdict(list)
