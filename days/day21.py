@@ -1,6 +1,5 @@
 import itertools
 import re
-from collections import Counter
 
 
 def get_input():
